@@ -29,4 +29,9 @@ public class BankAccountTest {
     public void depositNotNull() {
         assertNotNull(bankAccount);
     }
+
+    @Test
+    public void depositNull() {
+        assertNull(null);
+    }
 }
