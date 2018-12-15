@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class BankAccountTest {
-    BankAccount bankAccount = null;
+    private BankAccount bankAccount = null;
 
     @Before
     public void setUp() {
