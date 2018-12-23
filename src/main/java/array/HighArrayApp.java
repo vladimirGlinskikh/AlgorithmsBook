@@ -1,9 +1,12 @@
 package array;
+import jeneralMethods.JeneralMethods;
+
 
 public class HighArrayApp {
     public static void main(String[] args) {
         int maxSize = 100; // Размер массива
-        HighArray arr = new HighArray(maxSize); // Ссылка и создание массива
+//        HighArray arr = new HighArray(maxSize); // Ссылка и создание массива
+        JeneralMethods arr = new JeneralMethods(maxSize);
 
         arr.insert(77); // Вставка 10 элементов
         arr.insert(99);
@@ -19,7 +22,7 @@ public class HighArrayApp {
         arr.display(); // Вывод элементов
 
         int searchKey = 35; // Поиск элемента
-        if (arr.find(searchKey))
+        if (arr.findLinear(searchKey))
             System.out.println("Found " + searchKey);
         else
             System.out.println("Can't find " + searchKey);
