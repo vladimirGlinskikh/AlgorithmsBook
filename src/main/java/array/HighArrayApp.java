@@ -5,8 +5,7 @@ import jeneralMethods.JeneralMethods;
 public class HighArrayApp {
     public static void main(String[] args) {
         int maxSize = 100; // Размер массива
-//        HighArray arr = new HighArray(maxSize); // Ссылка и создание массива
-        JeneralMethods arr = new JeneralMethods(maxSize);
+        JeneralMethods arr = new JeneralMethods(maxSize);// Ссылка и создание массива
 
         arr.insert(77); // Вставка 10 элементов
         arr.insert(99);
